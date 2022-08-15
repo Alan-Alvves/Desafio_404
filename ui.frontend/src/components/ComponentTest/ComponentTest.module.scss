@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+.CTitle {
+    width: 586px;
+    height: 190px;
+}
+
+.CText {
+    width: 380px;
+    height: 108px;
+}
+
+.title {
+    width: 328px;
+    font-size: 40px;
+    color: #333333;
+    position: absolute;
+    margin: 0;
+    top: 99px;
+    left: 735px;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.text {
+    margin: 0;
+    position: absolute;
+    left: 735px;
+    width: 230px;
+    height: 108px;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    color: #4f4f4f;
+}
+
+.image {
+    position: absolute;
+    top: 60px;
+    left: 195px;
+    width: 470px;
+    height: 370px;
+}
+
+.button {
+    position: absolute;
+    left: 740px;
+    top: 378px;
+    color: #fff;
+    width: 216px;
+    height: 68px;
+    background: #333;
+}
+
+@media screen and (max-width: 379px){
+    .container{
+        height: 949px;
+    }
+    .image{position: absolute;
+        top: 109px;
+        left: 44px;
+        width: 286px;
+        height: 238px;}
+    
+    .title{width: 235px;
+        font-size: 40px;
+        position: absolute;
+        margin: 0;
+        top: 400px;
+        left: 73px;
+        color: #333333;
+
+    }
+
+    .text{position: absolute;
+        width: 252px;
+        height: 81px;
+        left: 73px;
+        top: 520px;
+    }
+
+    .button{position: absolute;
+        left: 73px;
+        top: 680px;
+        color: #fff;
+        width: 216px;
+        height: 68px;
+        background: #333;
+
+    }
+}
