@@ -9,6 +9,8 @@ const ComponentTest = ({textTest,text,image = {}}) => {
         
         <div className ={styles ['container']}>
 
+            <p className = {styles['header']}>404 not found</p>
+
             <div className = {styles ['CTitle']}>
             <p className = {styles ['title']}>{textTest}</p>
             </div>
@@ -18,9 +20,12 @@ const ComponentTest = ({textTest,text,image = {}}) => {
             </div>
 
             <button className = {styles['button']}>Back to homepage</button>
+            
 
             <img src = {image.src}className = {styles['image']}/>
 
+
+            <footer className = {styles['footer']}><p>created by username - devChallenges.io</p></footer>
         </div>
     )
 

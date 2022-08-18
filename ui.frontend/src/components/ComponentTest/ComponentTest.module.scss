@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 
+.header{
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
 .CTitle {
     width: 586px;
     height: 190px;
@@ -18,7 +27,7 @@
     position: absolute;
     margin: 0;
     top: 99px;
-    left: 735px;
+    left: 650px;
     font-family: 'Space Mono', monospace;
 }
 
@@ -26,7 +35,7 @@
 .text {
     margin: 0;
     position: absolute;
-    left: 735px;
+    left: 650px;
     width: 230px;
     height: 108px;
     font-size: 24px;
@@ -37,14 +46,14 @@
 .image {
     position: absolute;
     top: 60px;
-    left: 195px;
+    left: 120px;
     width: 470px;
     height: 370px;
 }
 
 .button {
     position: absolute;
-    left: 740px;
+    left: 650px;
     top: 378px;
     color: #fff;
     width: 216px;
@@ -52,40 +61,69 @@
     background: #333;
 }
 
-@media screen and (max-width: 379px){
+.footer{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 395px;
+    top: 562px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: grey;
+}
+
+@media screen and (max-width: 415px){
     .container{
         height: 949px;
     }
+
+    .header{
+        font-size: 20px;
+    }
     .image{position: absolute;
-        top: 109px;
-        left: 44px;
-        width: 286px;
-        height: 238px;}
+        top: 60px;
+        left: 160px;
+        width: 650px;
+        height: 520px;}
     
-    .title{width: 235px;
-        font-size: 40px;
+    .title{width: 510px;
+        font-size: 70px;
+        color: #333;
         position: absolute;
         margin: 0;
-        top: 400px;
-        left: 73px;
-        color: #333333;
+        top: 634px;
+        left: 208px;;
 
     }
 
     .text{position: absolute;
-        width: 252px;
-        height: 81px;
-        left: 73px;
-        top: 520px;
+        font-size: 35px;
+        width: 390px;
+        height: 80px;
+        left: 208px;
+        top: 830px;
     }
 
     .button{position: absolute;
-        left: 73px;
-        top: 680px;
+        left: 208px;
+        top: 1000px;
         color: #fff;
         width: 216px;
         height: 68px;
         background: #333;
 
+    }
+
+    .footer{
+    position: absolute;
+    width: 290px;
+    height: 17px;
+    left: 298px;
+    top: 1100px;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: grey
     }
 }
